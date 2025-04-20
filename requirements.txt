@@ -1,0 +1,6 @@
+requests==2.32.3
+flask===3.1.0
+flask_session==0.8.0
+tenacity==9.1.2
+beautifulsoup4==4.13.4
+tqdm==4.67.1
