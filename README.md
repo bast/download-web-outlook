@@ -21,9 +21,12 @@ web to a Linux operating system. I implemented this as a relatively lightweight
 web app because I wanted the authentication to happen in the web browser.  It
 may or may not work on other operating systems.
 
-**The script is brittle**: The download can take hours and it may be necessary
-to run the script multiple times after authentication times out. Improvements
-to the script are welcome.
+> [!WARNING]
+> **The script is brittle**: The download can take hours and it may be necessary
+> to run the script multiple times after authentication times out.  It worked for
+> me but requires significant testing and debugging to make this production
+> quality. But hopefully it can be a useful starting point.  Improvements to the
+> script are welcome.
 
 What I like about this approach:
 - All emails are downloaded in plain text format which I can easily search with
