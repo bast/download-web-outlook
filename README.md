@@ -34,7 +34,8 @@ What I like about this approach:
 - The script will write a file `email-archive/archived_emails.txt` holding IDs of
   all downloaded emails. This way I can easily check which emails I have
   already downloaded and which ones I still need to download. This means you can restart the script
-  many times and it will continue where it left off.
+  many times and it will continue where it left off and not download messages that are already
+  listed in `archived_emails.txt`.
 
 
 ## Installation
